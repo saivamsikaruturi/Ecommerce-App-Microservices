@@ -47,14 +47,14 @@ Notification Service: http://localhost:8080/notifications
 Payment Service: http://localhost:8080/payments
 
 ## Microservices Architecture
-API Gateway: Acts as the single entry point for all clients.
-Discovery Service (Eureka): Registers and discovers microservices.
-Config Server: Centralized configuration management.
-Product Service: Manages product information.
-Inventory Service: Manages inventory levels.
-Order Service: Handles order processing.
-Notification Service: Sends notifications.
-Payment Service: Processes payments.
-Circuit Breaker (Resilience4j): Provides fault tolerance.
-Logging: Centralized logging using ELK stack.
+* API Gateway: Acts as the single entry point for all clients.
+* Discovery Service (Eureka): Registers and discovers microservices.
+* Config Server: Centralized configuration management.
+* Product Service: Manages product information.
+* Inventory Service: Manages inventory levels.
+* Order Service: Handles order processing.
+* Notification Service: Sends notifications.
+* Payment Service: Processes payments.
+* Circuit Breaker (Resilience4j): Provides fault tolerance.
+* Logging: Centralized logging using ELK stack.
 Observability and Monitoring: Metrics and monitoring using Prometheus and Grafana.
